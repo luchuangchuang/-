@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/google-font.css">	
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="littleimg/demo.css">
+	<link rel="stylesheet" href="littleimg/iconfont.css">
+	<link rel="stylesheet" href="littleimg/img2/demo.css">
+	<link rel="stylesheet" href="littleimg/img2/iconfont.css">
+	<link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+	<!-- 以下是包含整个页面的大框框 -->
+	<div class="bigBox">
+		<div class="logo"></div>
+		<!-- 以下是用户注册信息 -->
+		<div class="container">
+			<ul id="container">
+				<li class="title">
+					<div>用户登录</div>
+				</li>
+				<!-- 以下是用户名信息 -->
+				<li class="username">
+					<div class="username-container">
+						<div class="username-logo">
+							<i class="icon iconfont icon-ren"></i>
+						</div>
+						<input type="text" class="username-input" placeholder="用户名">
+					</div>
+				</li>
+				<li>
+					<div id="username-text">用户名为必填项</div>
+				</li>
+				<!-- 以下是登录密码区域 -->
+				<li>
+					<div class="psd-container">
+						<div class="psd-logo">
+							<i class="icon iconfont icon-suo"></i>
+						</div>
+						<input type="text" class="psd-input" placeholder="登录密码">
+						<div class="eyes" id="zheng">
+							<i class="icon iconfont icon-yanjing"></i>
+						</div>
+						<div class="eyes" id="bi">
+							<i class="icon iconfont icon-yanjing1"></i>
+						</div>
+					</div>
+
+				</li>
+				<li>
+					<div id="psd-text">登录密码为必填项</div>
+				</li>
+				<!-- 以下是验证码区域 -->
+				<li>	
+					<div class="random-left-container">
+						<input type="text" id="random-left1"placeholder="验证码">
+						<div id="random-left2">
+							<div id="random-text" onclick="changeNum()">TVSD</div>
+						</div>
+					</div>
+					<div class="changeImg" onclick="changeNum()">看不清？换图片</div>				
+				</li>
+				<li>
+					<div id="underRandom">验证码必须填写</div>
+				</li>
+				<!-- 以下为提交按钮 -->
+				<li>
+					<input type="button" id="submit" value="登         录">
+				</li>
+				<!-- 以下是footer部分 -->
+				<li class="footer">
+					<div class="footer-left">
+						<a href="#">用户注册</a>
+					</div>
+					<div class="footer-right">
+						<a href="#">忘记密码？</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="littleimg/iconfont.js"></script>
+	<script src="littleimg/img2/iconfont.js"></script>
+	<script src="js/login.js"></script>
+</body>
+</html>

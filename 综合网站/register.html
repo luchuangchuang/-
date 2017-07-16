@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- <link rel="stylesheet" href="css/google-font.css"> -->	
+	<!-- <link rel="stylesheet" href="css/style.css"> -->	
+	<link rel="stylesheet" href="littleimg/demo.css">
+	<link rel="stylesheet" href="littleimg/img2/demo.css">
+	<link rel="stylesheet" href="littleimg/iconfont.css">
+	<link rel="stylesheet" href="littleimg/img2/iconfont.css">
+	<link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+	<!-- 以下是包含整个页面的大框框 -->
+	<div class="bigBox">
+		<div class="logo"></div>
+		<!-- 以下是用户注册信息 -->
+		<div class="container">
+			<ul id="container">
+				<li class="title">
+					<div>用户注册</div>
+				</li>
+				<!-- 以下是手机号信息 -->
+				<li class="tel">
+					<div class="tel-container">
+						<div class="tel-logo">
+							<i class="icon iconfont icon-shouji"></i>
+						</div>
+						<input type="text" class="tel-input" placeholder="手机号码">
+					</div>
+				</li>
+				<li>
+					<div id="tel-text">手机号码为必填项</div>
+				</li>
+				<!-- 以下是验证码区域 -->
+				<li clsaa="random">
+					<div class="random-leftContainer">
+						<div class="random-logo">
+							<i class="icon iconfont icon-erweima"></i>
+						</div>
+						<input type="text" class="random-input">
+					</div>
+					<input type="button" value="获取验证码" id="getNumber">
+				</li>
+				<li>
+					<div id="random-text">验证码为必填项</div>
+				</li>
+				<!-- 以下是登录密码区域 -->
+				<li>
+					<div class="psd-container">
+						<div class="psd-logo">
+							<i class="icon iconfont icon-suo"></i>
+						</div>
+						<input type="text" class="psd-input" placeholder="登录密码">
+						<div class="eyes" id="eyeing">
+							<i class="icon iconfont icon-yanjing" id="zheng"></i>
+						</div>
+						<div class="eyes" id="eyebi">
+							<i class="icon iconfont icon-yanjing1" id="bi"></i>
+						</div>
+					</div>
+
+				</li>
+				<li>
+					<div id="psd-text">登录密码为必填项</div>
+				</li>
+				<!-- 以下是确认密码区域 -->
+				<li>
+					<div class="Spsd-container">
+						<div class="Spsd-logo">
+							<i class="icon iconfont icon-suo"></i>
+						</div>
+						<input type="text" class="Spsd-input" placeholder="确认密码">
+						<div class="eyes2" id="eyeing2">
+							<i class="icon iconfont icon-yanjing" id="zheng2"></i>
+						</div>
+						<div class="eyes2" id="eyebi2">
+							<i class="icon iconfont icon-yanjing1" id="bi2"></i>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div id="Spsd-text">确认密码必须填写</div>
+				</li>
+				<!-- 以下为提交按钮 -->
+				<li>
+					<input type="button" id="submit" value="同意协议并提交">
+				</li>
+				<!-- 以下是footer部分 -->
+				<li class="footer">
+					<div class="footer-left">
+						<a href="#">已注册？立即登录</a>
+					</div>
+					<div class="footer-right">注册同意
+						<a href="#">《汇智聚富使用协议》</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="littleimg/iconfont.js"></script>
+	<script src="littleimg/img2/iconfont.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/register.js"></script>
+</body>
+</html>

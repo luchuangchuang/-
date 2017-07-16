@@ -1,0 +1,201 @@
+/* <!-- 以下是包含整个页面的大框框 --> */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+.bigBox{
+	width:100%;
+	height:100%;
+	background:url("../images/login_background.jpg");
+	background-size:cover;
+}
+.logo{
+	width:201px;
+	height:62px;
+/* 	position:absolute; */
+	 
+}
+/* <!-- 以下是用户登录信息 --> */
+.container{
+	width:420px;
+	height: 420px;
+	background:#fff;
+	margin-top:12%;
+	margin-left:65%;
+	border-top:2px solid tomato;
+	box-shadow:2px 2px 2px 2px #ccc;
+}
+#container>li{
+	width:375px;
+	height:44px;
+	/* border: 1px solid #000; */
+	margin:2px auto;
+}
+.title>div{
+	width:100%;
+	height:60%;
+	font-size:18px;
+	margin-top:8px;
+	padding-left:10px;
+	font-weight:bold;
+	border-left:3px solid #e88686;
+	line-height:30px;
+}
+/* <!-- 以下是用户名区域 --> */
+.username-container{
+	width:100%;
+	height:100%;
+	border:1px solid #ec868c;
+	border-radius:5px;
+}
+.username-logo{
+	width:50px;
+	height:44px;
+	background:#f2dede;
+	border-left:1px solid tomato;
+	display:inline-block;
+	line-height:45px;
+}
+.username-logo>i{
+	margin-left:10px;
+	font-size:22px;
+	color:#a94442;
+}
+.username-input{
+	height:42px;
+	width:319px;
+	font-size:16px;
+	float:right;
+	border:none;
+	outline:0;
+	margin-right:2px;
+}
+#username-text{
+	font-size:12px;
+	color:red;
+}
+
+/* 以下是登录密码区域 */
+.psd-container{
+	width:100%;
+	height:100%;
+	border:1px solid tomato;
+	border-radius:5px;
+	position:relative;
+}
+.psd-logo{
+	width:50px;
+	height:44px;
+	background:#f2dede;
+	border-left:1px solid tomato;
+	display:inline-block;
+}
+.psd-logo>i{
+	margin-left:10px;
+	font-size:24px;
+	color:#a94442;
+}
+.psd-input{
+	height:42px;
+	width:319px;
+	font-size:16px;
+	float:right;
+	margin-right:2px;
+	border:none;
+	outline:0;
+}
+.eyes{
+	position:absolute;
+	top:-3px;
+	left:325px;
+}
+.eyes>i{
+	font-size:35px;
+}
+#bi{
+	display:none;
+}
+#psd-text{
+	font-size:12px;
+	color:red;
+}
+/* 以下是验证码区域 */
+.random-left-container{
+	width:65%;
+	height:100%;
+	border:1px solid tomato;
+	border-radius:5px;
+	display:inline-block;
+}
+#random-left1{
+	width:60%;
+	height:85%;
+	display:inline-block;
+	float:left;
+	margin:2px 0 auto 10px;
+	border:none;
+	outline:0;
+	font-size:18px;
+}
+#random-left2{
+	width:35%;
+	height:99%;
+	display:inline-block;
+	border-left:1px solid tomato;
+	background:#f2dede;
+}
+#random-text{
+	width:70px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	margin:8px auto;
+	font-size:22px;
+	font-weight:bold;
+	background:#fff;
+}
+.changeImg{
+	width:30%;
+	height:100%;
+	color:blue;
+	display:inline-block;
+	float:right;
+	line-height:42px;
+}
+.changeImg>a{
+	font-size:12px;
+	text-decoration:none;
+}
+#underRandom{
+	font-size:12px;
+	color:red;
+}
+/* 以下为提交按钮  */
+#submit{
+	width:100%;
+	height:100%;
+	background:#e2454e;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	line-height:20px;
+	font-weight:bold;
+	border-radius:5px;
+	border:none;
+	outline:0;
+}
+ /* 以下是footer部分 */
+ .footer{
+ 	display:flex;
+ 	justify-content:space-between;
+ 	font-size:12px;
+ 	padding-top:5px;
+ }
+ .footer a{
+ 	text-decoration:none;
+ }

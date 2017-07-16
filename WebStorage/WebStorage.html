@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WebStorage</title>
+	<script>
+		
+	</script>
+</head>
+<body>
+<pre>
+	WebStorage:
+				1.sessionStorage
+
+				2.localStorage
+</pre>
+<hr>
+	<input type="text" id="input">
+	<input type="button" value="save" onclick="saveStorage('input')">
+	<input type="button" value="load" onclick="loadStorage('msg')">
+	<p id="msg"></p>
+</body>
+</html>
+<script>
+	// 
+	// function saveStorage(id){
+	// 	var text = document.getElementById(id).value;
+	// 	sessionStorage.setItem('message', text);
+	// }
+
+	// function loadStorage(id){
+	// 	var msg = document.getElementById(id);
+	// 	var text = sessionStorage.getItem('message');
+	// 	msg.innerHTML = text;
+	// }
+	function saveStorage(id){
+		var text = document.getElementById(id).value;
+		localStorage.setItem('message', text);
+	}
+
+	function loadStorage(id){
+		var msg = document.getElementById(id);
+		var text = localStorage.getItem('message');
+		msg.innerHTML = text;
+	}
+
+
+</script>

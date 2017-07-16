@@ -1,0 +1,237 @@
+/* <!-- 以下是包含整个页面的大框框 --> */
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+.bigBox{
+	width:100%;
+	height:100%;
+	background:url("../images/login_background.jpg");
+	background-size:cover;
+}
+.logo{
+	width:201px;
+	height:62px;
+/* 	position:absolute; */
+	
+}
+/* <!-- 以下是用户注册信息 --> */
+.container{
+	width:420px;
+	height: 520px;
+	background:#fff;
+	font-size:18px;
+	margin-top:12%;
+	margin-left:65%;
+	border-top:2px solid tomato;
+	box-shadow:2px 2px 2px 2px #ccc;
+}
+#container>li{
+	width:375px;
+	height:44px;
+	/* border: 1px solid #000; */
+	margin:2px auto;
+}
+.title>div{
+	width:100%;
+	height:60%;
+	margin-top:8px;
+	padding-left:10px;
+	font-weight:bold;
+	border-left:3px solid #e88686;
+	line-height:30px;
+}
+/* <!-- 以下是手机号码区域 --> */
+.tel-container{
+	width:100%;
+	height:100%;
+	border:1px solid #ec868c;
+	border-radius:5px;
+}
+.tel-logo{
+	width:50px;
+	height:44px;
+	background:#f2dede;
+	border-left:1px solid tomato;
+	display:inline-block;
+}
+.tel-logo>i{
+	margin-left:10px;
+	font-size:26px;
+	color:#a94442;
+}
+.tel-input{
+	height:42px;
+	width:319px;
+	font-size:16px;
+	float:right;
+	border:none;
+	outline:0;
+	margin-right:2px;
+}
+#tel-text{
+	font-size:12px;
+	color:red;
+}
+/* 以下是验证码区域 */
+.random-logo{
+	width:50px;
+	height:44px;
+	border-left:1px solid tomato;
+	background:#f2dede;
+	display:inline-block;
+}
+.random-logo>i{
+	margin-left:10px;
+	font-size:24px;
+	color:#a94442;
+}
+.random-leftContainer{
+	width:60%;
+	height:100%;
+	border:1px solid tomato;
+	border-radius:5px;
+	display:inline-block;
+}
+.random-input{
+	height:42px;
+	width:160px;
+	font-size:16px;
+	float:right;
+	margin-right:2px;
+	border:none;
+	outline:0;
+}
+#getNumber{
+	width:130px;
+	height:100%;
+	float:right;
+	margin-right:8px;
+	background:#ec868c;
+	border:none;
+	border-radius:8px;
+	font-size:18px;
+	color:#fff;	
+	outline:0;
+}
+#random-text{
+	font-size:12px;
+	color:red;
+}
+/* 以下是登录密码区域 */
+.psd-container{
+	width:100%;
+	height:100%;
+	border:1px solid tomato;
+	border-radius:5px;
+	position:relative;
+}
+.psd-logo{
+	width:50px;
+	height:44px;
+	background:#f2dede;
+	border-left:1px solid tomato;
+	display:inline-block;
+}
+.psd-logo>i{
+	margin-left:10px;
+	font-size:24px;
+	color:#a94442;
+}
+.psd-input{
+	height:42px;
+	width:319px;
+	font-size:16px;
+	float:right;
+	margin-right:2px;
+	border:none;
+	outline:0;
+}
+.eyes{	
+	position:absolute;	
+	top:0px;
+	left:325px;
+}
+.eyes>i{
+	font-size:30px;
+}
+#eyebi{
+	display:none;
+}
+#psd-text{
+	font-size:12px;
+	color:red;
+}
+/* 以下是确认密码区域 */
+.Spsd-container{
+	width:100%;
+	height:100%;
+	border:1px solid tomato;
+	border-radius:5px;
+	position:relative;
+}
+.Spsd-logo{
+	width:50px;
+	height:44px;
+	background:#f2dede;
+	border-left:1px solid tomato;
+	display:inline-block;
+}
+.Spsd-logo>i{
+	margin-left:10px;
+	font-size:24px;
+	color:#a94442;
+}
+.Spsd-input{
+	height:42px;
+	width:319px;
+	font-size:16px;
+	float:right;
+	border:none;
+	outline:0;
+	margin-right:2px;
+}
+.eyes2{	
+	position:absolute;	
+	top:0px;
+	left:325px;
+}
+.eyes2>i{
+	font-size:30px;
+}
+#eyebi2{
+	display:none;
+}
+#Spsd-text{
+	font-size:12px;
+	color:red;
+}
+/* 以下为提交按钮  */
+#submit{
+	width:100%;
+	height:100%;
+	background:#e2454e;
+	color:#fff;
+	font-size:18px;
+	text-align:center;
+	line-height:20px;
+	font-weight:bold;
+	border-radius:5px;
+	border:none;
+	outline:0;
+}
+ /* 以下是footer部分 */
+ .footer{
+ 	display:flex;
+ 	justify-content:space-between;
+ 	font-size:12px;
+ 	padding-top:5px;
+ }
+ .footer a{
+ 	text-decoration:none;
+ }
